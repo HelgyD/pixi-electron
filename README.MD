@@ -1,10 +1,10 @@
 # 🎛️ pixi + ts+ electron bundle
 
 **i went through sonme suffering launching it so maybe it'll help someone**  
-pixi- 2d renderer
-electron - wrapper for node apps
-typescript - because vanilla is a sin
-vite - bundler that turns everything into pure js and html (dist folder)
+- pixi- 2d renderer
+- electron - wrapper for node apps
+- typescript - because vanilla is a sin
+- vite - bundler that turns everything into pure js and html (dist folder)
 
 your TS code goes into /renderer where renderer.ts is the main file
 /renderer/public is for your assets
