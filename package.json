@@ -1,0 +1,48 @@
+{
+  "name": "tapeplayer",
+  "version": "0.1.0",
+  "main": "main.js",
+  "icon": "icon.ico",
+  "description": "this is a tape player=__=",
+  "author": {
+    "name": "Dzikun"
+  },
+  "build": {
+    "appId": "tapeplayer.id",
+    "icon": "build/icon.ico",
+    "win": {
+      "icon": "build/icon.ico",
+      "target": "portable"
+    },
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "!node_modules/.cache",
+      "!**/test",
+      "!**/__tests__",
+      "!**/example",
+      "!**/*.md",
+      "!**/*.map",
+      "!**/node_modules/app-builder-bin/**/*"
+    ],
+    "extraResources": [],
+    "asar": true,
+    "npmRebuild": false
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "electron:build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@types/css-font-loading-module": "^0.0.14",
+    "pixi.js": "^8.0.0",
+    "png-to-ico": "^2.1.8"
+  }
+}
