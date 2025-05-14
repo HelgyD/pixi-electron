@@ -1,4 +1,4 @@
-# 🎛️ pixi + ts+ electron bundle
+# 🎛️ pixijs + ts+ electron bundle
 
 **i went through sonme suffering launching it so maybe it'll help someone**  
 - pixi- 2d renderer
@@ -6,9 +6,10 @@
 - typescript - because vanilla is a sin
 - vite - bundler that turns everything into pure js and html (dist folder)
 
-your TS code goes into /renderer where renderer.ts is the main file
-/renderer/public is for your assets
-/build is for icon (icon.ico is a REQUIRED name if u build for windows)
+your TS code goes into /renderer where 
+- renderer.ts is the main file
+- /renderer/public is for your assets
+- /build is for icon (icon.ico is a REQUIRED name if u build for windows)
 
 ---
 
